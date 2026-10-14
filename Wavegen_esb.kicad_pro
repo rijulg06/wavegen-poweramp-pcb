@@ -674,6 +674,18 @@
     [
       "1c98237b-3b71-4b71-bfb3-ad70fb0d8b2b",
       "STM32"
+    ],
+    [
+      "7d7c01cb-e012-4aa5-8562-a4c629acedd9",
+      "PA107"
+    ],
+    [
+      "7c753f13-866d-4908-b1f2-9857b254ff6b",
+      "PA108"
+    ],
+    [
+      "55ae1cca-2d75-494c-9932-a0e4bde69ffd",
+      "5v"
     ]
   ],
   "text_variables": {}
