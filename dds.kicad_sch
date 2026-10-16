@@ -2193,159 +2193,80 @@
 		)
 		(uuid "fe750cb7-5c41-4cf8-9e7a-088adbef3c0b")
 	)
-	(global_label "Signal"
-		(shape input)
-		(at 266.7 118.11 0)
-		(fields_autoplaced yes)
+	(label "MCLK"
+		(at 106.68 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right bottom)
 		)
-		(uuid "014c206c-368b-464f-9206-7e16140068f2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.6117 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "8e0f7d6f-c7ed-429d-a3b7-373e38a27185")
 	)
-	(global_label "reset"
-		(shape input)
-		(at 106.68 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0711a89c-6c54-4404-82ab-97afe331a19a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.9776 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDATA"
-		(shape input)
-		(at 106.68 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "671cc326-bd87-4390-9bf4-ed1baabaf40b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.0705 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCLK"
-		(shape input)
+	(label "MCLK"
 		(at 168.91 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "918e911d-0b78-4cf8-b45c-335e8106ddba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.9147 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "b609ce97-f865-4226-bda1-28ee6d954960")
 	)
-	(global_label "FSYNC"
+	(hierarchical_label "FSYNC"
 		(shape input)
 		(at 106.68 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ac88ff3c-4c56-4681-a717-0002d30d2cbb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.7076 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "6d973bf6-9f61-47d2-80c0-f8611b3457be")
 	)
-	(global_label "SCLK"
+	(hierarchical_label "RESET"
+		(shape input)
+		(at 106.68 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4636383-2831-43b1-82c9-dda3375e6ffe")
+	)
+	(hierarchical_label "SCLK"
 		(shape input)
 		(at 106.68 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e1b3f9ec-229f-4385-bc56-a8521228eba3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.9172 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "c4270df9-a09c-4722-a665-4e3a04c79f2f")
 	)
-	(global_label "MCLK"
+	(hierarchical_label "SDATA"
 		(shape input)
-		(at 106.68 120.65 180)
-		(fields_autoplaced yes)
+		(at 106.68 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f7eb0bf9-ee56-4f4a-9712-4cc4a2541a51")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.6753 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "d86e492a-bb16-4da1-828f-d32162e3b231")
+	)
+	(hierarchical_label "SIGNAL"
+		(shape input)
+		(at 266.7 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "fd3407b7-b5dc-4e02-abef-76605acbf370")
 	)
 	(symbol
 		(lib_id "Device:C")
