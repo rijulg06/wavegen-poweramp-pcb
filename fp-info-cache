@@ -1,4 +1,4 @@
-25634276844683608
+25646822957853221
 1_High-speed analog interface
 R_8_ADI
 
@@ -46,6 +46,13 @@ Untitled
 
 
 0
+2
+2
+1_Sockets
+Untitled_1
+
+
+0
 0
 0
 1_variable gain
@@ -55,6 +62,27 @@ LMH6881SQ/NOPB
 0
 30
 26
+0806_L
+IND_LSQM_B201616_TAY
+
+LSQMB201616T390J 
+0
+2
+2
+0806_L
+IND_LSQM_B201616_TAY-L
+
+LSQMB201616T390J 
+0
+2
+2
+0806_L
+IND_LSQM_B201616_TAY-M
+
+LSQMB201616T390J 
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102731,3 +102759,24 @@ Varistor VF
 0
 2
 2
+WE-pptI_1006
+WE-PPTI_1006_L10.2W6.73H4.19
+
+
+0
+6
+6
+lever_terminal
+CONN2_2601-1102_WAG
+
+2601-1102 
+0
+4
+4
+pa107
+PA107DP
+PA107DP
+Integrated Circuit
+0
+12
+12

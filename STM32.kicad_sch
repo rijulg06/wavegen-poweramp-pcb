@@ -6689,7 +6689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 110.7948 40.64 0)
 			(effects
 				(font
@@ -7022,7 +7022,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 113.03 54.3052 0)
 			(effects
 				(font
@@ -8067,7 +8067,7 @@
 				)
 			)
 		)
-		(property "Footprint" "My Parts Library:USB-C-16-Pin-MidMount"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Molex_105450-0101"
 			(at 43.18 58.42 0)
 			(effects
 				(font
@@ -9993,7 +9993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 89.2048 44.45 0)
 			(effects
 				(font
@@ -10465,7 +10465,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 120.65 59.3852 0)
 			(effects
 				(font

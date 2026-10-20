@@ -1533,7 +1533,7 @@
 	)
 	(hierarchical_label "OUTM"
 		(shape input)
-		(at 151.13 101.6 0)
+		(at 158.75 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1577,7 +1577,7 @@
 	)
 	(hierarchical_label "OUTP"
 		(shape input)
-		(at 151.13 91.44 0)
+		(at 158.75 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1658,7 +1658,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 138.7348 77.47 0)
 			(effects
 				(font
@@ -1835,6 +1835,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 154.94 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d902d57-2a91-468d-9c82-4e2f14f8e904")
+		(property "Reference" "C58"
+			(at 154.94 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uf"
+			(at 154.94 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 151.13 92.4052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 154.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70d10728-943f-46f6-b911-1f53e427e50b")
+		)
+		(pin "1"
+			(uuid "b4b876f9-1caf-40d5-9303-140b47aefd2f")
+		)
+		(instances
+			(project "Wavegen_esb"
+				(path "/83dee5c5-8c71-4ecf-8c4b-74a6ca3f5e87/ae7dc586-15c3-4753-ac70-eec13d02e883"
+					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 147.32 101.6 90)
 		(unit 1)
@@ -1852,7 +1920,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "1k"
 			(at 147.32 97.79 90)
 			(effects
 				(font
@@ -1860,7 +1928,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 147.32 103.378 90)
 			(effects
 				(font
@@ -1880,6 +1948,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 147.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 147.32 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,7 +2004,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 122.682 53.34 90)
 			(effects
 				(font
@@ -1994,7 +2071,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 84.582 62.23 90)
 			(effects
 				(font
@@ -2128,7 +2205,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 84.582 54.61 90)
 			(effects
 				(font
@@ -2165,6 +2242,74 @@
 			(project "Wavegen_esb"
 				(path "/83dee5c5-8c71-4ecf-8c4b-74a6ca3f5e87/ae7dc586-15c3-4753-ac70-eec13d02e883"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 154.94 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5379ec61-6456-4648-b06d-623f53dfb869")
+		(property "Reference" "C59"
+			(at 154.94 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uf"
+			(at 154.94 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 151.13 102.5652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 154.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b72cfc91-6a6c-46d2-b93b-673e5f287646")
+		)
+		(pin "1"
+			(uuid "8e9ed9d6-5262-413d-bfee-35918619086e")
+		)
+		(instances
+			(project "Wavegen_esb"
+				(path "/83dee5c5-8c71-4ecf-8c4b-74a6ca3f5e87/ae7dc586-15c3-4753-ac70-eec13d02e883"
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -2263,7 +2408,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 111.76 90.4748 0)
 			(effects
 				(font
@@ -2333,7 +2478,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 136.1948 57.15 0)
 			(effects
 				(font
@@ -2460,7 +2605,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "1k"
 			(at 147.32 87.63 90)
 			(effects
 				(font
@@ -2468,7 +2613,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 147.32 93.218 90)
 			(effects
 				(font
@@ -2667,7 +2812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RTW0024A"
+		(property "Footprint" "1_variable gain:RTW0024A"
 			(at 124.46 137.16 0)
 			(effects
 				(font
@@ -2938,7 +3083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RTW0024A"
+		(property "Footprint" "1_variable gain:RTW0024A"
 			(at 124.46 96.52 0)
 			(effects
 				(font
@@ -3076,7 +3221,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 122.682 60.96 90)
 			(effects
 				(font
@@ -3213,7 +3358,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 96.8248 58.42 0)
 			(effects
 				(font
@@ -3283,7 +3428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 135.382 53.34 90)
 			(effects
 				(font
@@ -3353,7 +3498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 99.822 120.65 90)
 			(effects
 				(font

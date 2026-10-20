@@ -1290,7 +1290,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 163.068 52.07 90)
 			(effects
 				(font
@@ -1364,7 +1364,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 104.4448 29.21 0)
 			(effects
 				(font
@@ -1420,7 +1420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0caa46a5-17c0-4c71-9d46-16d4a01ec193")
-		(property "Reference" "R22"
+		(property "Reference" "R47"
 			(at 165.1 31.7499 0)
 			(effects
 				(font
@@ -1438,7 +1438,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 164.338 33.02 90)
 			(effects
 				(font
@@ -1478,7 +1478,7 @@
 					(unit 1)
 				)
 				(path "/83dee5c5-8c71-4ecf-8c4b-74a6ca3f5e87/7d7c01cb-e012-4aa5-8562-a4c629acedd9"
-					(reference "R22")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -1725,7 +1725,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 73.9648 29.21 0)
 			(effects
 				(font
@@ -2083,7 +2083,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 56.388 76.2 90)
 			(effects
 				(font
@@ -2157,7 +2157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PA107DP"
+		(property "Footprint" "pa107:PA107DP"
 			(at 90.17 158.42 0)
 			(effects
 				(font
@@ -2333,7 +2333,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 136.1948 48.26 0)
 			(effects
 				(font
@@ -2407,7 +2407,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 148.8948 48.26 0)
 			(effects
 				(font
@@ -2622,7 +2622,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 90.4748 29.21 0)
 			(effects
 				(font
@@ -2766,7 +2766,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 148.8948 29.21 0)
 			(effects
 				(font
@@ -2982,7 +2982,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 119.6848 29.21 0)
 			(effects
 				(font
@@ -3127,7 +3127,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 136.1948 29.21 0)
 			(effects
 				(font
