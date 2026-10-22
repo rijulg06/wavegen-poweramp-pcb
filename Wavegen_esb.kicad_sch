@@ -1399,7 +1399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "1_cap:CAPRR1500W80L2600T1150H2600"
 			(at 264.16 100.0252 0)
 			(effects
 				(font

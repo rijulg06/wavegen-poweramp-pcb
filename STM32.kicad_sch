@@ -5,113 +5,6 @@
 	(uuid "c2fa4524-d375-4bb9-a49b-75fffc11b0e0")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -4188,6 +4081,12 @@
 		)
 	)
 	(junction
+		(at 120.65 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b0b54ce-ab5b-4ad6-8577-36a277ae9c0b")
+	)
+	(junction
 		(at 90.17 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4224,6 +4123,12 @@
 		(uuid "41fc2da2-3f0d-4e5a-a586-656edd6cbe18")
 	)
 	(junction
+		(at 100.33 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5058fe6c-7a34-4091-92cb-743c5bcab580")
+	)
+	(junction
 		(at 229.87 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4242,22 +4147,28 @@
 		(uuid "6d3b90ff-2115-4d5c-b09f-60d95c493317")
 	)
 	(junction
+		(at 54.61 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86f339a2-0e89-44f2-b075-3924f9bcf698")
+	)
+	(junction
 		(at 78.74 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "912d8336-8458-4c0d-b6ee-543e0d23d2dd")
 	)
 	(junction
+		(at 54.61 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f9860ec-74cb-477c-88f4-61415b3b52d9")
+	)
+	(junction
 		(at 67.31 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6833615-c15f-4a4b-97ef-019ec744d9be")
-	)
-	(junction
-		(at 100.33 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abd7fd3e-c8cf-4a08-a56d-76cbd1e1ba51")
 	)
 	(junction
 		(at 148.59 81.28)
@@ -4270,6 +4181,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4f81326-2508-4cbf-96db-b8844313689f")
+	)
+	(junction
+		(at 90.17 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d25f1a2c-913c-47f7-8554-ff9fdeb07b9c")
+	)
+	(junction
+		(at 105.41 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e085d621-25ef-4380-b7a2-1c781ed16083")
 	)
 	(junction
 		(at 57.15 43.18)
@@ -4375,16 +4298,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 48.26) (xy 100.33 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c041409-ae00-45c9-b905-f3e0ac1b1f88")
-	)
-	(wire
-		(pts
 			(xy 177.8 67.31) (xy 177.8 68.58)
 		)
 		(stroke
@@ -4392,6 +4305,16 @@
 			(type default)
 		)
 		(uuid "1ca4255a-fc75-45e3-972d-609111bac38c")
+	)
+	(wire
+		(pts
+			(xy 120.65 73.66) (xy 120.65 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0218e3-67c8-4507-8448-16f628699fac")
 	)
 	(wire
 		(pts
@@ -4455,6 +4378,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 57.15) (xy 54.61 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c025254-743d-47a0-80e2-50a192c66b6b")
+	)
+	(wire
+		(pts
 			(xy 231.14 127) (xy 229.87 127)
 		)
 		(stroke
@@ -4472,6 +4405,16 @@
 			(type default)
 		)
 		(uuid "328f0857-9366-4673-b52f-3532a65efd12")
+	)
+	(wire
+		(pts
+			(xy 90.17 71.12) (xy 90.17 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d0069ec-e325-4854-bdce-19b140e7318f")
 	)
 	(wire
 		(pts
@@ -4555,16 +4498,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 55.88) (xy 54.61 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "550b8017-16f3-4793-b5df-4f9af3d1f410")
-	)
-	(wire
-		(pts
 			(xy 105.41 53.34) (xy 113.03 53.34)
 		)
 		(stroke
@@ -4572,16 +4505,6 @@
 			(type default)
 		)
 		(uuid "5d4eabca-0f33-4bd7-a232-ea81afde551c")
-	)
-	(wire
-		(pts
-			(xy 67.31 43.18) (xy 69.85 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63b5cd29-af26-40d7-b11f-e1c3df50051a")
 	)
 	(wire
 		(pts
@@ -4602,6 +4525,16 @@
 			(type default)
 		)
 		(uuid "67e41bbb-e843-465c-b80d-afe944a0f7cf")
+	)
+	(wire
+		(pts
+			(xy 123.19 68.58) (xy 124.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67fd6d68-9ae0-4200-a137-6b90a794d48a")
 	)
 	(wire
 		(pts
@@ -4755,6 +4688,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 73.66) (xy 120.65 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb93407-265d-4e7d-a906-a34a885aae7c")
+	)
+	(wire
+		(pts
 			(xy 128.27 111.76) (xy 128.27 114.3)
 		)
 		(stroke
@@ -4765,13 +4708,23 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 60.96) (xy 54.61 63.5)
+			(xy 54.61 60.96) (xy 54.61 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "98c74e44-a777-416e-b18f-1947a15b03e3")
+	)
+	(wire
+		(pts
+			(xy 54.61 62.23) (xy 54.61 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a1873f9-5dd4-4c56-a449-755e093ee612")
 	)
 	(wire
 		(pts
@@ -4925,16 +4878,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 40.64) (xy 69.85 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7e3153c-34c4-4f4a-96e5-9dae57656dea")
-	)
-	(wire
-		(pts
 			(xy 54.61 48.26) (xy 74.93 48.26)
 		)
 		(stroke
@@ -4985,6 +4928,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 48.26) (xy 100.33 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c4ff0e-3e0a-43cc-8cdb-6aca509e3cce")
+	)
+	(wire
+		(pts
 			(xy 148.59 81.28) (xy 157.48 81.28)
 		)
 		(stroke
@@ -5025,6 +4978,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 43.18) (xy 67.31 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60467c0-0fd5-4de1-86b6-ff465ccfe8a6")
+	)
+	(wire
+		(pts
 			(xy 46.99 109.22) (xy 46.99 111.76)
 		)
 		(stroke
@@ -5032,6 +4995,16 @@
 			(type default)
 		)
 		(uuid "e6557283-6aa3-474b-a312-189353e22614")
+	)
+	(wire
+		(pts
+			(xy 123.19 66.04) (xy 124.46 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9135470-7b08-41d2-a314-ec4471b4c2c2")
 	)
 	(wire
 		(pts
@@ -5052,6 +5025,16 @@
 			(type default)
 		)
 		(uuid "ea2ea18b-ab74-44ec-8127-b30f62f132e5")
+	)
+	(wire
+		(pts
+			(xy 100.33 48.26) (xy 100.33 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaeb9f56-471d-4028-ac01-15ca5dc3ce7c")
 	)
 	(wire
 		(pts
@@ -5152,6 +5135,16 @@
 			(type default)
 		)
 		(uuid "fdc43045-6ce4-465b-ae3e-14109e08cc6f")
+	)
+	(wire
+		(pts
+			(xy 54.61 55.88) (xy 54.61 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe696c20-2ebe-4980-adca-0a76393be586")
 	)
 	(wire
 		(pts
@@ -5407,7 +5400,7 @@
 	)
 	(global_label "D+iso"
 		(shape input)
-		(at 115.57 66.04 0)
+		(at 124.46 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5417,34 +5410,12 @@
 		)
 		(uuid "58458848-376c-4683-a24c-9b1a043ab796")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.1795 66.04 0)
+			(at 133.0695 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "D+"
-		(shape input)
-		(at 109.22 139.7 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5bcb817e-8523-4831-9aac-033235885994")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 145.5276 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5649,7 +5620,7 @@
 	)
 	(global_label "D-iso"
 		(shape input)
-		(at 115.57 68.58 0)
+		(at 124.46 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5659,7 +5630,7 @@
 		)
 		(uuid "9ba40f8b-964f-4719-88e0-e806d9a9f847")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.1795 68.58 0)
+			(at 133.0695 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,7 +5774,7 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 54.61 62.23 0)
+		(at 62.23 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5813,7 +5784,7 @@
 		)
 		(uuid "b59c9a2e-1c45-4ded-82b5-542fb389e615")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.4376 62.23 0)
+			(at 68.0576 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,7 +6060,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 54.61 57.15 0)
+		(at 62.23 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6099,7 +6070,7 @@
 		)
 		(uuid "d9a89fca-2de4-4d15-8c7b-1054c527948c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.4376 57.15 0)
+			(at 68.0576 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,28 +6115,6 @@
 		(uuid "e307f015-3033-4fcb-8dc4-5e3842fda7ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 207.9558 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "D-"
-		(shape input)
-		(at 95.25 139.7 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e4d8f8b4-6660-4348-bfc4-6dd41de64b9b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.25 145.5276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6595,73 +6544,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 95.25 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09c7d8eb-1ce7-4916-baeb-33fdef0aab4b")
-		(property "Reference" "TP2"
-			(at 97.79 135.1279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 97.79 137.6679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 100.33 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 95.25 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f6ba119-7348-4906-a4d6-e6338ffd4455")
-		)
-		(instances
-			(project "Wavegen_esb"
-				(path "/83dee5c5-8c71-4ecf-8c4b-74a6ca3f5e87/1c98237b-3b71-4b71-bfb3-ad70fb0d8b2b"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 111.76 44.45 180)
 		(unit 1)
@@ -6689,7 +6571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 110.7948 40.64 0)
 			(effects
 				(font
@@ -6726,6 +6608,72 @@
 			(project "Wavegen_esb"
 				(path "/83dee5c5-8c71-4ecf-8c4b-74a6ca3f5e87/1c98237b-3b71-4b71-bfb3-ad70fb0d8b2b"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 105.41 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15be27fc-ee00-46de-9bde-d242e33130f3")
+		(property "Reference" "#PWR062"
+			(at 105.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 105.41 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 105.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6231c890-6cba-452e-a773-c27d26cf2a5a")
+		)
+		(instances
+			(project "Wavegen_esb"
+				(path "/83dee5c5-8c71-4ecf-8c4b-74a6ca3f5e87/1c98237b-3b71-4b71-bfb3-ad70fb0d8b2b"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -7022,7 +6970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 113.03 54.3052 0)
 			(effects
 				(font
@@ -7200,73 +7148,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 90.17 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "354bec1c-92f6-47e6-a713-36a31cd10531")
-		(property "Reference" "#PWR063"
-			(at 93.98 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 86.36 58.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 90.17 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0990bfe-2a3f-40d5-aac5-3d27ebb511d1")
-		)
-		(instances
-			(project "Wavegen_esb"
-				(path "/83dee5c5-8c71-4ecf-8c4b-74a6ca3f5e87/1c98237b-3b71-4b71-bfb3-ad70fb0d8b2b"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 78.74 160.02 0)
 		(unit 1)
@@ -7294,7 +7175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 79.7052 163.83 0)
 			(effects
 				(font
@@ -7365,7 +7246,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 149.5552 71.12 0)
 			(effects
 				(font
@@ -7894,6 +7775,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 58.42 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5db68d73-201b-4e48-b97a-a887ceb43229")
+		(property "Reference" "R27"
+			(at 58.42 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24"
+			(at 58.42 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 58.42 58.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9801718f-845b-4ec4-9a98-b5219a2c4875")
+		)
+		(pin "2"
+			(uuid "254d3b75-6544-4774-bab4-ffc0676711ab")
+		)
+		(instances
+			(project "Wavegen_esb"
+				(path "/83dee5c5-8c71-4ecf-8c4b-74a6ca3f5e87/1c98237b-3b71-4b71-bfb3-ad70fb0d8b2b"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f02a827-4b44-4904-8e45-c371eefd1161")
+		(property "Reference" "R30"
+			(at 119.38 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24"
+			(at 119.38 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 119.38 67.818 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4529039-e0bb-4eba-9cff-8c5035f83542")
+		)
+		(pin "2"
+			(uuid "6c0a0573-5d90-43bd-95d3-50412599197e")
+		)
+		(instances
+			(project "Wavegen_esb"
+				(path "/83dee5c5-8c71-4ecf-8c4b-74a6ca3f5e87/1c98237b-3b71-4b71-bfb3-ad70fb0d8b2b"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:TLV70233_SOT23-5")
 		(at 64.77 152.4 0)
 		(unit 1)
@@ -7999,7 +8016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 101.2952 111.76 0)
 			(effects
 				(font
@@ -8067,7 +8084,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Molex_105450-0101"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 43.18 58.42 0)
 			(effects
 				(font
@@ -8155,73 +8172,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d9e5530-7c61-481d-bfd5-99aaeef94065")
-		(property "Reference" "TP1"
-			(at 111.76 135.1279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 111.76 137.6679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 114.3 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d2fa8f8-cb44-4ac7-b2fa-8377bad2c210")
-		)
-		(instances
-			(project "Wavegen_esb"
-				(path "/83dee5c5-8c71-4ecf-8c4b-74a6ca3f5e87/1c98237b-3b71-4b71-bfb3-ad70fb0d8b2b"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 114.3 107.95 0)
 		(unit 1)
@@ -8249,7 +8199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 115.2652 111.76 0)
 			(effects
 				(font
@@ -8424,6 +8374,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 119.38 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "763eacd4-3b55-4e74-974d-6b1fbb85627e")
+		(property "Reference" "R29"
+			(at 119.38 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24"
+			(at 119.38 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 119.38 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09b11496-434b-4da3-8706-43ee9840b3f3")
+		)
+		(pin "2"
+			(uuid "a353c958-e82c-4df1-8653-cb38c088979f")
+		)
+		(instances
+			(project "Wavegen_esb"
+				(path "/83dee5c5-8c71-4ecf-8c4b-74a6ca3f5e87/1c98237b-3b71-4b71-bfb3-ad70fb0d8b2b"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 50.8 160.02 0)
 		(unit 1)
@@ -8451,7 +8469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 51.7652 163.83 0)
 			(effects
 				(font
@@ -8488,73 +8506,6 @@
 			(project "Wavegen_esb"
 				(path "/83dee5c5-8c71-4ecf-8c4b-74a6ca3f5e87/1c98237b-3b71-4b71-bfb3-ad70fb0d8b2b"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 115.57 73.66 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7cd9c483-72e1-47d0-b3d0-e183b18957ee")
-		(property "Reference" "#PWR065"
-			(at 115.57 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 115.57 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6a0997d-18dd-45b9-b584-2b5120a66397")
-		)
-		(instances
-			(project "Wavegen_esb"
-				(path "/83dee5c5-8c71-4ecf-8c4b-74a6ca3f5e87/1c98237b-3b71-4b71-bfb3-ad70fb0d8b2b"
-					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -8621,73 +8572,6 @@
 			(project "Wavegen_esb"
 				(path "/83dee5c5-8c71-4ecf-8c4b-74a6ca3f5e87/1c98237b-3b71-4b71-bfb3-ad70fb0d8b2b"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 90.17 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "866219ad-c8cf-48b8-9599-1ea840915606")
-		(property "Reference" "#PWR062"
-			(at 93.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 86.36 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 90.17 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09f947ac-8839-4767-8302-da0816108a0b")
-		)
-		(instances
-			(project "Wavegen_esb"
-				(path "/83dee5c5-8c71-4ecf-8c4b-74a6ca3f5e87/1c98237b-3b71-4b71-bfb3-ad70fb0d8b2b"
-					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -8858,7 +8742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 88.5952 111.76 0)
 			(effects
 				(font
@@ -9137,7 +9021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 167.3352 111.76 0)
 			(effects
 				(font
@@ -9207,7 +9091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 39.0652 163.83 0)
 			(effects
 				(font
@@ -9244,72 +9128,6 @@
 			(project "Wavegen_esb"
 				(path "/83dee5c5-8c71-4ecf-8c4b-74a6ca3f5e87/1c98237b-3b71-4b71-bfb3-ad70fb0d8b2b"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 100.33 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab59d3c2-423e-4c9a-ac5b-6221e15d3a80")
-		(property "Reference" "#PWR035"
-			(at 100.33 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 100.33 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 100.33 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0692831b-c523-40fe-bb6c-b0bab3dd5b1d")
-		)
-		(instances
-			(project "Wavegen_esb"
-				(path "/83dee5c5-8c71-4ecf-8c4b-74a6ca3f5e87/1c98237b-3b71-4b71-bfb3-ad70fb0d8b2b"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9542,7 +9360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 73.152 54.61 90)
 			(effects
 				(font
@@ -9612,7 +9430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 65.532 62.23 90)
 			(effects
 				(font
@@ -9993,7 +9811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 89.2048 44.45 0)
 			(effects
 				(font
@@ -10265,7 +10083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 155.9052 111.76 0)
 			(effects
 				(font
@@ -10374,17 +10192,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 69.85 40.64 0)
+		(lib_id "Device:R")
+		(at 58.42 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e2552919-0e31-45f9-8915-fcbe31c6dd77")
-		(property "Reference" "#PWR041"
-			(at 69.85 44.45 0)
+		(uuid "e9fba4b9-688b-44b5-b51a-43413a04f431")
+		(property "Reference" "R28"
+			(at 58.42 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24"
+			(at 58.42 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 58.42 64.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10392,16 +10226,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 69.85 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 40.64 0)
+		(property "Datasheet" "~"
+			(at 58.42 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10409,17 +10235,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 69.85 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 69.85 40.64 0)
+		(property "Description" "Resistor"
+			(at 58.42 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10428,12 +10245,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d149f423-2eb5-49bc-9617-3999e674203e")
+			(uuid "5b1a013e-65a6-4bd8-a2cb-ccba78ad5198")
+		)
+		(pin "2"
+			(uuid "226b2c69-0d2b-4410-a583-b4cd20e600a3")
 		)
 		(instances
 			(project "Wavegen_esb"
 				(path "/83dee5c5-8c71-4ecf-8c4b-74a6ca3f5e87/1c98237b-3b71-4b71-bfb3-ad70fb0d8b2b"
-					(reference "#PWR041")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -10465,7 +10285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 120.65 59.3852 0)
 			(effects
 				(font
@@ -10602,7 +10422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 129.2352 111.76 0)
 			(effects
 				(font
@@ -10672,7 +10492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 141.9352 111.76 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-25646822957853221
+25648616201045170
 1_High-speed analog interface
 R_8_ADI
 
@@ -55,6 +55,13 @@ Untitled_1
 0
 0
 0
+1_cap
+CAPRR1500W80L2600T1150H2600
+
+
+0
+2
+2
 1_variable gain
 RTW0024A
 

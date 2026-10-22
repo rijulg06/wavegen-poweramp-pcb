@@ -1228,12 +1228,6 @@
 		(uuid "62e9d60c-be50-49c6-ba60-1e216ef98a0e")
 	)
 	(junction
-		(at 137.16 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7aaaae34-26e6-45dc-af41-81abdf58eac2")
-	)
-	(junction
 		(at 97.79 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1250,6 +1244,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97cfec7d-599d-4836-88d6-e90d99d95b60")
+	)
+	(junction
+		(at 137.16 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7255cce-b946-426f-b8dd-9f59f10732d0")
 	)
 	(junction
 		(at 124.46 57.15)
@@ -1649,7 +1649,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1pf"
+		(property "Value" "0.1uf"
 			(at 143.51 82.5499 0)
 			(effects
 				(font
@@ -1658,7 +1658,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 138.7348 77.47 0)
 			(effects
 				(font
@@ -1762,6 +1762,72 @@
 			(project "Wavegen_esb"
 				(path "/83dee5c5-8c71-4ecf-8c4b-74a6ca3f5e87/ae7dc586-15c3-4753-ac70-eec13d02e883"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 106.68 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e898380-d3e6-49f0-9cfb-9b909011d063")
+		(property "Reference" "#PWR0101"
+			(at 106.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 106.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f334fcbe-908b-4a20-95a7-ff28e68a1965")
+		)
+		(instances
+			(project "Wavegen_esb"
+				(path "/83dee5c5-8c71-4ecf-8c4b-74a6ca3f5e87/ae7dc586-15c3-4753-ac70-eec13d02e883"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -1920,7 +1986,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "665"
 			(at 147.32 97.79 90)
 			(effects
 				(font
@@ -2004,7 +2070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 122.682 53.34 90)
 			(effects
 				(font
@@ -2071,7 +2137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 84.582 62.23 90)
 			(effects
 				(font
@@ -2205,7 +2271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 84.582 54.61 90)
 			(effects
 				(font
@@ -2400,7 +2466,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uf"
+		(property "Value" "1uf"
 			(at 107.95 86.36 90)
 			(effects
 				(font
@@ -2408,7 +2474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 111.76 90.4748 0)
 			(effects
 				(font
@@ -2452,7 +2518,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 137.16 60.96 180)
+		(at 137.16 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2466,20 +2532,20 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "0.1pf"
+		(property "Value" "10uf"
 			(at 140.97 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 136.1948 57.15 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 138.1252 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +2671,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "665"
 			(at 147.32 87.63 90)
 			(effects
 				(font
@@ -3221,7 +3287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 122.682 60.96 90)
 			(effects
 				(font
@@ -3349,7 +3415,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1pf"
+		(property "Value" "10uf"
 			(at 101.6 63.4999 0)
 			(effects
 				(font
@@ -3358,7 +3424,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 96.8248 58.42 0)
 			(effects
 				(font
@@ -3428,7 +3494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 135.382 53.34 90)
 			(effects
 				(font
@@ -3498,7 +3564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 99.822 120.65 90)
 			(effects
 				(font
